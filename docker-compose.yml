@@ -19,7 +19,7 @@ services:
     image: mysql:8.3
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: test_database
+      MYSQL_DATABASE: project_database
       MYSQL_USER: db_user
       MYSQL_PASSWORD: password
     ports:
